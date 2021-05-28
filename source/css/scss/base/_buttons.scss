@@ -9,3 +9,20 @@
 button {
 	cursor: pointer;
 }
+
+/*------------------------------------*\
+    #cmsf
+\*------------------------------------*/
+
+button {
+    background: var(--cerulean);
+    color: whitesmoke;
+    border: none;
+    border-radius: 8px; // guess and check
+    padding-block-start: 0.5rem;
+    padding-inline-end: 1rem;
+    padding-block-end: 0.5rem;
+    padding-inline-start: 1rem;
+}
+
+
