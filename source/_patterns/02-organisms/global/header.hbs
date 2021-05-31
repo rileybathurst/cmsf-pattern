@@ -1,12 +1,19 @@
 <header class="c-header {{ headerStyleModifier }}">
 
-    {{#> molecules-layout-container styleModifier="c-header__inner" }}
+    <div class="header-grid">
+        {{> atoms-card-image src=cardImage }}
+        <div class="header-grid--overlay"><!-- stay gold --></div>
+        <svg viewBox="0 0 100 10" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="2" y="8" fill="white" />
+            <path d="m 0 8 C 25 10, 75 2, 100 2 L 100 8 L 0 8 Z" fill="white" />
+            <path d="m 0 8 C 25 10, 75 2, 100 2" stroke="#066B7E" fill="transparent" stroke-width="2" />
+        </svg>
+        <div class="hero">
+            {{> molecules-logo }}
+            {{> molecules-donate }}
+        </div>
+    </div>
 
-        {{> molecules-logo }}
-        {{> molecules-donate }}
-
-        {{> molecules-primary-nav }}
-
-    {{/ molecules-layout-container}}
+    {{> molecules-primary-nav }}
 
 </header><!--end c-header-->

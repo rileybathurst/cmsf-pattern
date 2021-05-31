@@ -19,17 +19,133 @@
     #cmsf
 \*------------------------------------*/
 
-.cmsf-logo {
-    max-width: var(--max-page);
-    margin: 0 auto;
+.header-grid {
+    display: grid;
+    margin-block-end: 2rem;
 
-    > a {
-    display: flex;
-    align-items: center;
+    > * {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    > img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 10rem;
+        z-index: 1;
+    }
+
+    .header-grid--overlay {
+        background: var(--cerulean);
+        mix-blend-mode: multiply;
+        z-index: 2;
+    }
 
     > svg {
-        max-width: 4rem;
-        max-height: 4rem;
+        height: 100%; //guess and check
+        max-height: 10rem; // safari needs something
+        width: 100%;
+        display: block;
+        z-index: 3;
+    }
+
+    > .hero {
+        z-index: 4;
+        width: 100%;
+        max-width: var(--max-page);
+        margin-inline: auto;
+        display: grid;
+        padding-inline: 1rem;
+
+        > .cmsf-logo {
+            grid-row: 1;
+            grid-column: 1;
+            align-self: center;
+
+            > a { // past the inception rule never ore than 3 layers deep
+                color: white;
+                > svg {
+                    fill: var(--seahorse);
+                }
+            }
+        }
+
+        > button {
+            grid-row: 2;
+            grid-column: 1;
+            justify-self: end;
+            align-self: end;
+        }
     }
 }
+
+@supports not (margin-inline: auto) {
+    .header__grid {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+}
+
+.cmsf-logo {
+    > a {
+        display: flex;
+        align-items: center;
+
+        > svg {
+            max-width: 4rem;
+            max-height: 4rem;
+        } // svg
+    } // a
+} // .cmsf-logo
+
+nav > ul {
+    margin-block-end: 2rem;
+}
+
+main {
+    max-width: var(--max-page);
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+@supports not (margin-inline: auto) {
+    main {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+footer {
+    // border-top: 0.5rem solid var(--cerulean);
+    
+    svg {
+        fill: lightgray;
+        width: 100%;
+        max-height: 2rem; // guess and check might need to be responsive
+        display: block; // get rid of space under
+    }
+
+    ul {
+        margin-block-end: 0;
+    }
+    
+    nav {
+        background: lightgray; // needs to be a variable
+        padding-block: 1rem;
+    }
+
+    > .copyright {
+        background: lightgray;
+        padding-block-end: 2rem;
+
+        p {
+            max-width: var(--max-page);
+            margin-inline: auto;
+            margin-block: 0;
+            padding-inline: 1rem;
+        }
+    }
 }

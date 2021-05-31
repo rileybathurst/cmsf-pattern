@@ -45,4 +45,8 @@
 /*------------------------------------*\
     #COMPONENTS
 \*------------------------------------*/
-// @import "../_patterns/**/*.scss";
+
+// https://www.npmjs.com/package/glob
+// I have this in node modules not sure if it works with scss
+// @import "../_patterns/**/*";
+@import "../_patterns/00-atoms/images/icon.scss" // this works

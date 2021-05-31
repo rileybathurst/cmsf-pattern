@@ -12,13 +12,13 @@ p {
 /**
  * Blockquote base styles
  */
-blockquote {
+/* blockquote {
 	font-style: italic;
 	border-left: 1px solid $color-neutral-gray-50;
 	color: $color-neutral-gray-50;
 	padding-left: 1rem;
 	margin-bottom: $spacing;
-}
+} */
 
 /**
  * Horizontal rule base styles
@@ -80,4 +80,42 @@ pre {
 code[class*="language-"],
 pre[class*="language-"] {
 	font-family: monospace !important;
+}
+
+/*------------------------------------*\
+  #cmsf
+\*------------------------------------*/
+
+blockquote {
+	font-size: 1.56rem;
+	color: var(--maya);
+	display: grid;
+	margin-block-end: 2rem;
+}
+
+@supports not (margin-block-end: 2rem) {
+	blockquote {
+			margin-bottom: 2rem;
+	}
+}
+
+blockquote::before {
+	content: open-quote;
+	padding-inline-end: 1rem;
+	grid-row: 1;
+	grid-column: 1;
+}
+
+@supports not (margin-block-end: 2rem) {
+	blockquote::before {
+			margin-right: 1rem;
+	}
+}
+
+blockquote > cite {
+	grid-row: 2;
+	grid-column: 2;
+	// color: revert; // can I do this
+	color: black;
+	font-size: 1rem;
 }

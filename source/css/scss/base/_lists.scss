@@ -12,3 +12,21 @@
 ol, ul {
 	list-style: none;
 }
+
+nav > ul {
+  display: flex;
+  width: 100%;
+  max-width: var(--max-page);
+  margin-inline: auto;
+  padding-inline: 1rem;
+  justify-content: space-between;
+}
+
+/* double negatives are better */
+/* https://www.oddbird.net/2021/05/14/support-unknown/?utm_campaign=CSS%2BLayout%2BNews&utm_medium=email&utm_source=CSS_Layout_News_303 */
+@supports not (margin-inline: auto) {
+  nav > ul {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
