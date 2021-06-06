@@ -1,1 +1,56 @@
 {{> atoms-colors }}
+
+<ul>
+{{# contrasts }}
+<li>
+  {{ colorName }}
+  {{ colorHex }}
+  <ul>
+    <li>
+      Contrast to white
+  {{ contrast-to-white }}
+</li>
+      <li>
+      Contrast to light gray
+  {{ contrast-to-light-gray }}
+  </li>
+      <li>
+      Contrast to gray
+  {{ contrast-to-gray }}
+  </li>
+      <li>
+      Contrast to dark gray
+  {{ contrast-to-dark-gray }}
+  </li>
+      <li>
+      Contrast to black
+  {{ contrast-to-black }}
+  </li>
+      <li>
+      Contrast to maya
+  {{ contrast-to-maya }}
+  </li>
+      <li>
+      Contrast to cerulean
+  {{ contrast-to-cerulean }}
+  </li>
+      <li>
+      Contrast to seahorse
+  {{ contrast-to-seahorse }}
+  </li>
+  </ul>
+</li>
+<hr />
+{{/ contrasts }}
+</ul>
+
+<small>WCAG 2.0 level AA requires a contrast ratio of at least<br />
+4.5:1 for normal text<br />
+3:1 for large text.<br />
+WCAG 2.1 requires a contrast ratio of at least<br />
+3:1 for graphics and user interface components (such as form input borders).<br />
+WCAG Level AAA requires a contrast ratio of at least<br />
+7:1 for normal text and<br />
+4.5:1 for large text.<br />
+
+Large text is defined as 14 point (typically 18.66px) and bold or larger, or 18 point (typically 24px) or larger.</small>

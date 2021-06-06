@@ -1,0 +1,40 @@
+{
+	"contrasts" : [
+		{
+			"colorHex" : "#1292AB",
+			"colorName" : "maya",
+			"contrast-to-white" : "3.66",
+			"contrast-to-light-gray" : "3.21",
+			"contrast-to-gray" : "2.81",
+			"contrast-to-dark-gray" : "3.62",
+			"contrast-to-black" : "5.72",
+			"contrast-to-maya" : "1",
+			"contrast-to-cerulean" : "1.67",
+			"contrast-to-seahorse" : "2.39"
+		},
+		{
+			"colorHex" : "#066b7e",
+			"colorName" : "cerulean",
+			"contrast-to-white" : "6.15",
+			"contrast-to-light-gray" : "5.4",
+			"contrast-to-gray" : "1.67",
+			"contrast-to-dark-gray" : "2.16",
+			"contrast-to-black" : "3.41",
+			"contrast-to-maya" : "1.67",
+			"contrast-to-cerulean" : "1",
+			"contrast-to-seahorse" : "4.01"
+		},
+		{
+			"colorHex" : "#facc02",
+			"colorName" : "seahorse",
+			"contrast-to-white" : "1.53",
+			"contrast-to-light-gray" : "1.34",
+			"contrast-to-gray" : "6.73",
+			"contrast-to-dark-gray" : "8.67",
+			"contrast-to-black" : "13.7",
+			"contrast-to-maya" : "2.39",
+			"contrast-to-cerulean" : "4.01",
+			"contrast-to-seahorse" : "1"
+		}
+	]
+}

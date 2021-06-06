@@ -1,9 +1,19 @@
 {
   "items": [
     {
-      "name": "$color-brand-blue",
-      "value": "#0000ff",
-      "comment": ""
+      "name": "maya",
+      "value": "hsl(189.8, 81%, 37.1%)",
+      "comment": "cmsf"
+    },
+    {
+      "name": "cerulean",
+      "value": "hsl(189.5, 90.9%, 25.9%)",
+      "comment": "cmsf"
+    },
+    {
+      "name": "seahorse",
+      "value": "hsl(48.9, 98.4%, 49.4%)",
+      "comment": "cmsf"
     }
   ],
   "meta": {

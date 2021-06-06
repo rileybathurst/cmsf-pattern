@@ -1,0 +1,69 @@
+{
+  "primary": [
+    {
+      "name": "primary-color",
+      "value": "#1E93BD"
+    },
+    {
+      "name": "secondary-color",
+      "value": "#006087"
+    }
+  ],
+  "contrasts": [
+    {
+      "contrast-light": "3.49",
+      "light-normal-AA": "fail",
+      "light-normal-AAA": "fail",
+      "light-large-AA": "pass",
+      "light-large-AAA": "fail",
+      "light-UI": "pass",
+      "contrast-dark": "5.62",
+      "dark-normal-AA": "pass",
+      "dark-normal-AAA": "fail",
+      "dark-large-AA": "pass",
+      "dark-large-AAA": "pass",
+      "dark-UI": "pass",
+      "contrast-primary": "0",
+      "primary-normal-AA": "fail",
+      "primary-normal-AAA": "fail",
+      "primary-large-AA": "fail",
+      "primary-large-AAA": "fail",
+      "primary-UI": "fail",
+      "contrast-secondary": "1.97",
+      "secondary-normal-AA": "fail",
+      "secondary-normal-AAA": "fail",
+      "secondary-large-AA": "fail",
+      "secondary-large-AAA": "fail",
+      "secondary-UI": "fail"
+    },
+    {
+      "contrast-light": "3.49",
+      "light-normal-AA": "pass",
+      "light-normal-AAA": "fail",
+      "light-large-AA": "pass",
+      "light-large-AAA": "pass",
+      "light-UI": "pass",
+      "contrast-dark": "5.62",
+      "dark-normal-AA": "fail",
+      "dark-normal-AAA": "fail",
+      "dark-large-AA": "fail",
+      "dark-large-AAA": "fail",
+      "dark-UI": "fail",
+      "contrast-primary": "1.97",
+      "primary-normal-AA": "fail",
+      "primary-normal-AAA": "fail",
+      "primary-large-AA": "fail",
+      "primary-large-AAA": "fail",
+      "primary-UI": "fail",
+      "contrast-secondary": "0",
+      "secondary-normal-AA": "fail",
+      "secondary-normal-AAA": "fail",
+      "secondary-large-AA": "fail",
+      "secondary-large-AAA": "fail",
+      "secondary-UI": "fail"
+    }
+  ],
+  "meta": {
+    "description": ""
+  }
+}

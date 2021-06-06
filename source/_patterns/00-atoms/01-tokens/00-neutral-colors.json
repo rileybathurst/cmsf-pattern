@@ -1,54 +1,39 @@
 {
   "items": [
     {
-      "name": "$color-neutral-white",
+      "name": "--global--color-white-90",
+      "value": "rgba(255, 255, 255, 0.9)",
+      "comment": "wordpress 2021 theme"
+    },
+    {
+      "name": "--global--color-white-50",
+      "value": "rgba(255, 255, 255, 0.5)",
+      "comment": "wordpress 2021 theme"
+    },
+    {
+      "name": "--global--color-white",
       "value": "#fff",
-      "comment": ""
+      "comment": "wordpress 2021 theme"
     },
     {
-      "name": "$color-neutral-gray-02",
-      "value": "#f9f9f9",
-      "comment": ""
+      "name": "--global--color-light-gray",
+      "value": "#f0f0f0",
+      "comment": "wordpress 2021 theme"
     },
     {
-      "name": "$color-neutral-gray-07",
-      "value": "#eee",
-      "comment": ""
+      "name": "--global--color-gray",
+      "value": "#39414d",
+      "comment": "wordpress 2021 theme"
     },
     {
-      "name": "$color-neutral-gray-13",
-      "value": "#ddd",
-      "comment": ""
+      "name": "--global--color-dark-gray",
+      "value": "#28303d",
+      "comment": "wordpress 2021 theme"
     },
     {
-      "name": "$color-neutral-gray-27",
-      "value": "#bbb",
-      "comment": ""
-    },
-    {
-      "name": "$color-neutral-gray-50",
-      "value": "#808080",
-      "comment": ""
-    },
-    {
-      "name": "$color-neutral-gray-60",
-      "value": "#666",
-      "comment": ""
-    },
-    {
-      "name": "$color-neutral-gray-73",
-      "value": "#444",
-      "comment": ""
-    },
-    {
-      "name": "$color-neutral-gray-93",
-      "value": "#131313",
-      "comment": ""
-    },
-    {
-      "name": "$color-neutral-black",
+      "name": "--global--color-black",
       "value": "#000",
-      "comment": ""
+      "comment": "wordpress 2021 theme"
     }
   ],
   "meta": {

@@ -1,24 +1,34 @@
 {
   "items": [
     {
-      "name": "$color-utility-info",
-      "value": "#0192d0",
-      "comment": ""
+      "name": "--global--color-yellow",
+      "value": "#eeeadd",
+      "comment": "wordpress 2021 theme"
     },
     {
-      "name": "$color-utility-error",
-      "value": "#b12a0b",
-      "comment": ""
+      "name": "--global--color-orange",
+      "value": "#e4dad1",
+      "comment": "wordpress 2021 theme"
     },
     {
-      "name": "$color-utility-success",
-      "value": "#03804d",
-      "comment": ""
+      "name": "--global--color-red",
+      "value": "#e4d1d1",
+      "comment": "wordpress 2021 theme"
     },
     {
-      "name": "$color-utility-warning",
-      "value": "#a59b15",
-      "comment": ""
+      "name": "--global--color-purple",
+      "value": "#d1d1e4",
+      "comment": "wordpress 2021 theme"
+    },
+    {
+      "name": "--global--color-blue",
+      "value": "#d1dfe4",
+      "comment": "wordpress 2021 theme"
+    },
+    {
+      "name": "--global--color-green",
+      "value": "#d1e4dd",
+      "comment": "wordpress 2021 theme"
     }
   ],
   "meta": {
